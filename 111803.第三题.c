@@ -4,8 +4,8 @@ int a=3;
 int b=4;
 int c=5;
 if(!(a>b)&&!c||1){
-printf("真命题");}
+printf("%d\n",1);}
 else {
-printf("假命题");}
+printf("%d\n",0");}
 
 }
