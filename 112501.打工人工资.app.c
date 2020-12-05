@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(){
 int money;
+printf("请输入你的工资");
 scanf("%d",&money);
 if(money>=0&&money<=100)
 {
