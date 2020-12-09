@@ -20,7 +20,7 @@ for(h=0;h<19;h++)
 	{	
 		
     arr2d[h][l]=a++;
-		printf("%-2d  ",arr2d[h][l]);
+		printf("%-2d ",arr2d[h][l]);
 	}
 	printf("\n");
 }
