@@ -1,17 +1,12 @@
 #include<stdio.h>
-int myFunction(int x)
-{
-	int b=0;
-	for(;x>=0;x--){
-	b+=x;
-		}
-	return	b;
-
-	}
 void main()
 {
-	int a;
-	printf("本程序用于常规求和\n请输入一个大于0的数\n");
-	scanf("%d",&a);
-printf("%d\n",myFunction(a));
+int a,b=0;
+printf("该程序用于常规求和\n请输入一个大于0的数\n");
+scanf("%d",&a);
+for(;a>=0;a--)
+{
+b+=a;
+}
+printf("结果是%d\n",b);
 }
